@@ -1,0 +1,4 @@
+DDL
+DML
+DCL
+DQL
