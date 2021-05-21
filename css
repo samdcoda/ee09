@@ -2,3 +2,13 @@ p{
 font-size:10px;
 margin-left:20px;
 }
+
+h1 {
+	color: grey;
+	border-style: ridge;
+	text-shadow: 2px 2px #000;
+	text-align: center;
+}
+
+input[type=submit], input[type=reset] {
+	background-color
