@@ -26,14 +26,21 @@
       }
       else
       {
-      
+       $q1=mysqli_query($conn, 'SELECT * FROM tableName');
+       echo "<table border=1>";
+        while($result = mysqli_fetch_array($q1))
+        {
+        echo "<tr><td>".$result['columnName']."</td></tr>";
+        }
+       echo "</table>";      
+       
+       mysqli_close($conn);
       }
-     mysqli_close($conn);
     ?>
   </div>
   <div id="footer">
-   <h2></h2>
-   <p></p>
+   <p><a class="footer" href="project.html">Project</a></p>
+   <p><!-- contact form -->contact us</p>
   </div>
  </body>
 </html>
