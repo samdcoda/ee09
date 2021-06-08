@@ -2,13 +2,15 @@ body {
 background-color: #ffe4b5;
 font-family: Helvetica;
 }
+
 form {
 margin: 40px;
 }
+
 table {
 color: #ffffff;
 text-align: center;
-border: 1px dash #yellow;
+border: 1px dotted #yellow;
 width: 90%;
 }
 
@@ -17,17 +19,18 @@ background-color: #4B0082;
 color: #ffffff;
 text-align: center;
 width: 75%
-
+float: left;
 }
 #logo {
 width: 25%;
 height: 100px;
-
+float: left;
 }
 #left {
 width: 45%;
 height: 300px;
-
+clear:both;
+float: left;
 }
 #right {
 width: 55%;
