@@ -1,1 +1,16 @@
+body {
+background-color: #ffe4b5;
+}
 
+#baner {
+background-color: #4B0082;
+color: #ffffff;
+text-align: center;
+width: 75%
+
+}
+#logo {
+width: 25%;
+height: 100px;
+
+}
