@@ -28,17 +28,20 @@ float: left;
 
 }
 #logo {
+background-color: #4B0000;
 width: 25%;
 height: 100px;
 float: left;
 }
 #left {
+background-color: #ff0082;
 width: 45%;
 height: 300px;
 float: left;
 
 }
 #right {
+background-color: #4Bff82;
 width: 55%;
 height: 300px;
 text-align: center;
@@ -46,15 +49,16 @@ float: left;
 }
 
 #main {
+background-color: #4B00ff;
 width: 45%;
 height: 300px;
-background-color: #4B0082;
+
 padding: 60px;
 
 
 }
 #footer {
-background-color: #4B0082;
+background-color: #4ff082;
 color: #ffffff;
 padding: 40px;
 
