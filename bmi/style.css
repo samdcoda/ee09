@@ -22,7 +22,9 @@ background-color: #FB0082;
 background-color: #4B0082;
 color: #ffffff;
 text-align: center;
-width: 75%
+width: 75%;
+height: 100px;
+float: left;
 
 }
 #logo {
@@ -33,23 +35,27 @@ float: left;
 #left {
 width: 45%;
 height: 300px;
-clear:both;
 float: left;
+
 }
 #right {
 width: 55%;
 height: 300px;
 text-align: center;
+float: left;
 }
+
 #main {
 width: 45%;
 height: 300px;
 background-color: #4B0082;
 padding: 60px;
 
+
 }
 #footer {
 background-color: #4B0082;
 color: #ffffff;
 padding: 40px;
+
 }
