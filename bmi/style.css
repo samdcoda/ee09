@@ -10,9 +10,12 @@ margin: 40px;
 table {
 color: #ffffff;
 text-align: center;
-border: 1px dotted yellow;
+border: 1px dashed yellow;
 width: 90%;
 border-collapse: collapse;
+}
+tr:hover {
+background-color: #FB0082;
 }
 
 #baner {
@@ -20,7 +23,7 @@ background-color: #4B0082;
 color: #ffffff;
 text-align: center;
 width: 75%
-float: left;
+
 }
 #logo {
 width: 25%;
