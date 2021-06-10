@@ -1,15 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>track</title>
+<meta charset="utf-8">
+<!-- <link rel="stylesheet" href="style_track.css"> -->
+<style>
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+</style>  
+</head>
+<body>
+
+ <input type="date">
+ <input type="submit" value="Start">
+ <input type="submit" value="Stop">
+ <label for="notes">Notes:</label>
+ <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br>
+ <input type="submit" value="Zapisz notatki">
+
 <table border="1">
-
-<tr>
- <th>
-  <ul>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-  </ul>
- </th>
-</tr>
-
-
+ <tr>
+  <th>data</th>
+  <th>start</th>
+  <th>stop</th>
+  <th>notatki</th>
+ </tr>
+ <tr>
+  <td>wybrana data</td>
+  <td>godzina rozpoczecia</td>
+  <td>godzina zakonczenia nauki</td>
+  <td>notatki</td>
+ </tr>
 </table>
+</body>
+</html>
